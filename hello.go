@@ -30,7 +30,7 @@ func main() {
 	resultado = somaTudo(3, 5, 10, 4, 6, 343)
 	fmt.Println(resultado)
 
-	// funão dentro de função
+	// função dentro de função
 	calculo := func(x ...int) func() int {
 		res := 0
 		// blank para ignorar a chave do array
